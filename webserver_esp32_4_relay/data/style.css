@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.relay {
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  color: white;
+}
+
+.relay.on {
+  background-color: green;
+}
+
+.relay.off {
+  background-color: red;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
